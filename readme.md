@@ -32,7 +32,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#instructions">Overview</a>
+      <a href="#instructions">Instructions</a>
       <ol>
         <li>
           <a href="#key-components">Key Components</a>

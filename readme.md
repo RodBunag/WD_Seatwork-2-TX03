@@ -74,9 +74,9 @@ note: add the documentation in the github repository created in step 3 and 4
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
--MultiPage Website/Single Page Website
--Parallax transition
--Transactional
+1. MultiPage Website/Single Page Website
+2. Parallax transition
+3. Transactional
 
 ### Technology
 <!-- TODO: List of Technology Used -->

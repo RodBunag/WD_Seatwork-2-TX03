@@ -6,14 +6,14 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/TO A DAY IN MY LIFE (1).png" alt="Nyebe" width="950" height="300">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Seatwork 2</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+   Formulating HTML
 </div>
 
 <br />
@@ -59,11 +59,18 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+1. Select from Pinterest/Behance or any website that provides a complete 1 page design of website/landing page
+(full website - must consist of header, footer and some sections) 
+
+2. Create a wireframe of the website, document it same as seatwork 1
+
+3. Formulate Emmet Codes to implement making the coding faster
+
+4. Create a github repository(duplicate the template) and do some practice code for checking of your emmet code
+(Repository should kept empty until next meeting)
+note: add the documentation in the github repository created in step 3 and 4
+5. Submit the repository link
+(in the url of same as this, is what you call a repo link. since the site is the repository of the project)
 
 ### Key Components
 <!-- TODO: List of Key Components -->

@@ -32,7 +32,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#overview">Overview</a>
+      <a href="#instructions">Overview</a>
       <ol>
         <li>
           <a href="#key-components">Key Components</a>
@@ -53,7 +53,7 @@
 
 ---
 
-## Overview
+## Instructions
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->

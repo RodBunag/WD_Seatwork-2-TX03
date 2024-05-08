@@ -20,7 +20,7 @@
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=RodBunag/WD_SEATWORK-2-Tx03)
 
 ---
 
@@ -57,7 +57,7 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+Description on how to do the Seatwork 2 in details.
 
 1. Select from Pinterest/Behance or any website that provides a complete 1 page design of website/landing page
 (full website - must consist of header, footer and some sections) 
@@ -65,7 +65,6 @@ Description of the project in details.
 2. Create a wireframe of the website, document it same as seatwork 1
 
 3. Formulate Emmet Codes to implement making the coding faster
-
 4. Create a github repository(duplicate the template) and do some practice code for checking of your emmet code
 (Repository should kept empty until next meeting)
 note: add the documentation in the github repository created in step 3 and 4
@@ -75,9 +74,9 @@ note: add the documentation in the github repository created in step 3 and 4
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+-MultiPage Website/Single Page Website
+-Parallax transition
+-Transactional
 
 ### Technology
 <!-- TODO: List of Technology Used -->

@@ -1,0 +1,41 @@
+/* style.css */
+
+/* Set Lime header background */
+header {
+    background-color: rgba(0, 255, 68, 0.462);
+    padding: 5px; /* Add padding for better appearance */
+}
+
+/* Change the text color of "Rodrigo Bunag" to brown */
+.hero .left h1:nth-of-type(2) {
+    color: brown;
+}
+
+/* Move buttons to the top right */
+nav {
+    position: absolute;
+    top: 20px; /* Adjust top position as needed */
+    right: 20px; /* Adjust right position as needed */
+}
+
+/* Style buttons */
+nav button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+/* Style button text */
+nav button p {
+    margin: 0;
+    color: black; /* Set button text color */
+}
+
+/* Add hover effect to buttons */
+nav button:hover {
+    background-color: #f0f0f0; /* Light gray background color on hover */
+}
+
+
+  

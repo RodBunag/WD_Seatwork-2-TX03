@@ -1,41 +1,58 @@
-/* style.css */
-
-/* Set Lime header background */
+/* Additional CSS for custom styling */
 header {
-    background-color: rgba(0, 255, 68, 0.462);
-    padding: 5px; /* Add padding for better appearance */
+    display: flex;
+    background-color: rgba(60, 65, 61, 0.096);
+    padding: 5px; /* Increase padding for bigger header */
+    justify-content: space-between;
+    align-items: flex-start; /* Align items flex-start */
 }
 
-/* Change the text color of "Rodrigo Bunag" to brown */
-.hero .left h1:nth-of-type(2) {
-    color: brown;
+.left {
+    width: 70%; /* Adjust width as needed */
+    float: left;
+    margin-top: 20px; /* Add margin-top for spacing */
 }
 
-/* Move buttons to the top right */
-nav {
-    position: absolute;
-    top: 20px; /* Adjust top position as needed */
-    right: 20px; /* Adjust right position as needed */
+.right {
+    width: 30%; /* Adjust width as needed */
+    float: right;
 }
 
-/* Style buttons */
+h1 {
+    font-size: 28px; /* Adjusted font size to 28px */
+    color: #6d4c41; /* Brown color for "Rodrigo Bunag III" */
+    margin-bottom: 10px; /* Add margin-bottom for spacing */
+}
+
+h2 {
+    font-size: 24px; /* Keep font size at 24px */
+    color: #333; /* Default color */
+    margin-bottom: 20px; /* Add margin-bottom for spacing */
+}
+
+p {
+    font-size: 16px; /* Adjusted font size to 16px */
+    line-height: 1.6; /* Keep line height at 1.6 */
+    color: #333; /* Default color */
+}
+
 nav button {
-    background: transparent;
-    border: none;
+    background-color: transparent; /* Make button background transparent */
+    border: none; /* Remove border */
     cursor: pointer;
-    padding: 5px 10px;
+    padding: 10px; /* Add padding for spacing */
+    transition: background-color 0.3s ease; /* Add transition effect */
 }
 
-/* Style button text */
-nav button p {
-    margin: 0;
-    color: black; /* Set button text color */
-}
-
-/* Add hover effect to buttons */
 nav button:hover {
-    background-color: #f0f0f0; /* Light gray background color on hover */
+    background-color: rgba(0, 0, 0, 0.1); /* Darker color when hovered */
 }
+
+nav button p {
+    margin: 0; /* Remove default margin for paragraphs */
+}
+
+
 
 
   

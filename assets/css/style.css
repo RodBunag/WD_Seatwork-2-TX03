@@ -1,13 +1,17 @@
 /* Additional CSS for custom styling */
+
+*{
+    margin: 0;
+}
 header {
     display: flex;
     justify-content: space-between;
     align-items: center; 
-    background-color: rgba(10, 140, 196, 0.351);
+    background-color: #1d72cd9e;
     padding: 6px; /* Increase padding for bigger header */
     
     & > img {
-    max-width: 5%;
+    max-width: 10%;
     height: auto;
     display: block;
     }
@@ -23,7 +27,7 @@ header {
     float: right;
 }
 
-h9 {
+h1{
     font-size: 25px; /* Adjust size as needed */
     color: #333; /* Color for "rod" */
     float: middle;
@@ -34,9 +38,12 @@ h1 span {
     font-size: 28px; /* Larger font size for "Rodrigo Bunag III" */
     color: #6d4c41; /* Brown color for "Rodrigo Bunag III" */
 }
-
+h2 span {
+    font-size: 28px; /* Larger font size for "Water Gym leader" */
+    color: #6d4c41; /* Brown color for "Water Gym leader" */
+}
 p {
-    font-size: 16px; /* Adjust size as needed */
+    font-size: 20px; /* Adjust size as needed */
     line-height: 1.6; /* Adjust line height for readability */
     color: #333; /* Default color for paragraphs */
 }
@@ -57,6 +64,10 @@ nav button p {
 
 img {
     max-width: 100%;
-    height: auto;
-    display: block;
+
 }
+
+body {
+    background-color:#A0CEFF
+}
+

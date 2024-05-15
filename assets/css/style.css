@@ -3,11 +3,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center; 
-    background-color: rgba(60, 65, 61, 0.096);
-    padding: 5px; /* Increase padding for bigger header */
+    background-color: rgba(10, 140, 196, 0.351);
+    padding: 6px; /* Increase padding for bigger header */
     
     & > img {
-    max-width: 10%;
+    max-width: 5%;
     height: auto;
     display: block;
     }
@@ -23,10 +23,12 @@ header {
     float: right;
 }
 
-h1 {
-    font-size: 24px; /* Adjust size as needed */
+h9 {
+    font-size: 25px; /* Adjust size as needed */
     color: #333; /* Color for "rod" */
+    float: middle;
 }
+
 
 h1 span {
     font-size: 28px; /* Larger font size for "Rodrigo Bunag III" */

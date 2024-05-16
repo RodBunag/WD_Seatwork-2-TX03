@@ -47,11 +47,43 @@ p {
     line-height: 1.6; /* Adjust line height for readability */
     color: #333; /* Default color for paragraphs */
 }
+/* Container to hold buttons in a row */
+.button-container {
+    display: flex; /* Use flexbox for layout */
+    gap: 10px; /* Optional: Add space between buttons */
+    justify-content: center; /* Optional: Center the buttons horizontally */
+    align-items: center; /* Optional: Center the buttons vertically */
+}
+
+/* Common styles for buttons to ensure consistency */
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none; /* Remove default border */
+    padding: 0; /* Remove default padding */
+    background-color: transparent; /* Make background transparent */
+    cursor: pointer; /* Change cursor on hover */
+}
+
+/* Specific styles for image buttons */
+.image-button {
+    width: 100px; /* Set to your preferred size */
+    height: 100px; /* Set to your preferred size */
+    border-radius: 50%; /* Make it circular */
+    overflow: hidden; /* Ensure the image doesn't overflow the button */
+}
+
+.image-button img {
+    width: 100%; /* Make the image fill the button */
+    height: 100%; /* Make the image fill the button */
+    object-fit: cover; /* Ensure the image covers the entire button */
+}
 nav button {
     background-color: transparent; /* Make button background transparent */
     border: none; /* Remove border */
     cursor: pointer;
-    padding: 10px; /* Add padding for spacing */
+    padding: 30px; /* Add padding for spacing */
     transition: background-color 0.3s ease; /* Add transition effect */
 }
 nav button:hover {

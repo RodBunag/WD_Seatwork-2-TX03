@@ -1,20 +1,21 @@
 /* Additional CSS for custom styling */
 
-*{
+* {
     margin: 0;
 }
+
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center; 
-    background-color: #1d72cd9e;
+    align-items: center;
+    background-color: #197eea9e;
     padding: 6px; /* Increase padding for bigger header */
-    
-    & > img {
+}
+
+header > img {
     max-width: 10%;
     height: auto;
     display: block;
-    }
 }
 
 .left {
@@ -27,26 +28,28 @@ header {
     float: right;
 }
 
-h1{
+h1 {
     font-size: 25px; /* Adjust size as needed */
     color: #333; /* Color for "rod" */
-    float: middle;
+    text-align: center; /* Center the title horizontally */
 }
-
 
 h1 span {
     font-size: 28px; /* Larger font size for "Rodrigo Bunag III" */
     color: #6d4c41; /* Brown color for "Rodrigo Bunag III" */
 }
+
 h2 span {
     font-size: 28px; /* Larger font size for "Water Gym leader" */
     color: #6d4c41; /* Brown color for "Water Gym leader" */
 }
+
 p {
     font-size: 20px; /* Adjust size as needed */
     line-height: 1.6; /* Adjust line height for readability */
     color: #333; /* Default color for paragraphs */
 }
+
 /* Container to hold buttons in a row */
 .button-container {
     display: flex; /* Use flexbox for layout */
@@ -79,6 +82,7 @@ button {
     height: 100%; /* Make the image fill the button */
     object-fit: cover; /* Ensure the image covers the entire button */
 }
+
 nav button {
     background-color: transparent; /* Make button background transparent */
     border: none; /* Remove border */
@@ -86,6 +90,7 @@ nav button {
     padding: 30px; /* Add padding for spacing */
     transition: background-color 0.3s ease; /* Add transition effect */
 }
+
 nav button:hover {
     background-color: rgba(0, 0, 0, 0.1); /* Darker color when hovered */
 }
@@ -96,10 +101,22 @@ nav button p {
 
 img {
     max-width: 100%;
-
 }
 
 body {
-    background-color:#A0CEFF
+    background-color: #3c80c4;
 }
+
+/* Center carousel item contents */
+.carousel-item {
+    text-align: center; /* Center text horizontally */
+}
+
+.carousel-item img {
+    max-width: 10%; /* Ensure the image does not exceed the container width */
+    max-height: 100vh; /* Set the maximum height */
+    margin-top: 0vh; /* Adjust vertical margin to center the main Pokémon */
+}
+
+
 

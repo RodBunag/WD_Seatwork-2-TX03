@@ -13,18 +13,13 @@ header {
     position: relative;
 }
 
-header::after {
-    background-image: url("../img/Cloud.png");
-    object-position: 100%;
-}
-
 header > img{
     position: absolute;
     left:0;
     top:0;
     width:100%;
     object-fit: cover;
-    z-index: 0;
+    z-index: -20;
 }
 
 
@@ -33,12 +28,11 @@ header > .content {
     justify-content: space-between;
     align-items: center;
     background: url("../img/Cloud.png");
-
     padding: 6px; /* Increase padding for bigger header */
 }
 
 header > .content > img {
-    max-width: 10%;
+    max-width: 20%;
     height: auto;
     display: block;
 }
@@ -47,11 +41,8 @@ header > .content > h1 {
     font-size: 50px; /* Adjust size as needed */
     font-family: 'Pokemon Solid', sans-serif; /*pokemonfont*/
     line-height: 1.2; /* Adjust line height for readability */
-    color: hsl(58, 90%, 61%); /* Color for the text */
+    color: hsl(263, 100%, 3%); /* Color for the text */
 }
-
-
-
 .left {
     width: 70%; /* Adjust width as needed */
     float: left;
@@ -116,7 +107,7 @@ img {
 }
 
 body {
-    background-color: #3c80c4;
+    background-color: #3c80c4cd;
 }
 
 /* Center carousel item contents */

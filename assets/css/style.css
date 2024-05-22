@@ -6,25 +6,50 @@
 }
 
 header {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+header::after {
+    background-image: url("../img/Cloud.png");
+    object-position: 100%;
+}
+
+header > img{
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+
+header > .content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #09012c;
+    background: url("../img/Cloud.png");
+
     padding: 6px; /* Increase padding for bigger header */
 }
 
-header > img {
+header > .content > img {
     max-width: 10%;
     height: auto;
     display: block;
 }
 
-header > h1 {
+header > .content > h1 {
     font-size: 50px; /* Adjust size as needed */
-    font-family: 'Pokemon Solid', sans-serif; /*pokemon font*/
+    font-family: 'Pokemon Solid', sans-serif; /*pokemonfont*/
     line-height: 1.2; /* Adjust line height for readability */
     color: hsl(58, 90%, 61%); /* Color for the text */
 }
+
 
 
 .left {

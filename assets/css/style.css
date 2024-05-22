@@ -1,4 +1,5 @@
 /* Additional CSS for custom styling */
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
 
 * {
     margin: 0;
@@ -8,7 +9,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #197eea9e;
+    background-color: #09012c;
     padding: 6px; /* Increase padding for bigger header */
 }
 
@@ -18,6 +19,14 @@ header > img {
     display: block;
 }
 
+header > h1 {
+    font-size: 50px; /* Adjust size as needed */
+    font-family: 'Pokemon Solid', sans-serif; /*pokemon font*/
+    line-height: 1.2; /* Adjust line height for readability */
+    color: hsl(58, 90%, 61%); /* Color for the text */
+}
+
+
 .left {
     width: 70%; /* Adjust width as needed */
     float: left;
@@ -26,28 +35,6 @@ header > img {
 .right {
     width: 30%; /* Adjust width as needed */
     float: right;
-}
-
-h1 {
-    font-size: 25px; /* Adjust size as needed */
-    color: #333; /* Color for "rod" */
-    text-align: center; /* Center the title horizontally */
-}
-
-h1 span {
-    font-size: 28px; /* Larger font size for "Rodrigo Bunag III" */
-    color: #6d4c41; /* Brown color for "Rodrigo Bunag III" */
-}
-
-h2 span {
-    font-size: 28px; /* Larger font size for "Water Gym leader" */
-    color: #6d4c41; /* Brown color for "Water Gym leader" */
-}
-
-p {
-    font-size: 20px; /* Adjust size as needed */
-    line-height: 1.6; /* Adjust line height for readability */
-    color: #333; /* Default color for paragraphs */
 }
 
 /* Container to hold buttons in a row */
@@ -117,6 +104,8 @@ body {
     max-height: 100vh; /* Set the maximum height */
     margin-top: 0vh; /* Adjust vertical margin to center the main Pokémon */
 }
+
+
 
 
 

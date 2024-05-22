@@ -30,6 +30,10 @@ body {
 /* Main content styles */
 .content {
     padding: 20px;
+    text-align: Left;
+}
+h1 {
+    padding: 20px;
     text-align: center;
 }
 
@@ -42,7 +46,8 @@ body {
 }
 
 .pokemon-gifs img {
-    width: 50px; /* Adjust width of Pokemon images */
+    width: 70px; /* Adjust width of Pokemon images */
+    height: 70px;
 }
 
 /* Resume section styles */

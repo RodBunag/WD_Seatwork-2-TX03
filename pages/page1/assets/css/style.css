@@ -129,11 +129,11 @@ footer {
     font-family: 'Pokemon Solid', sans-serif; /*pokemonfont*/
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 footer > .Footimage {
-    margin-right:0cm /* Pushes the left image to the corner */
+    margin-right:0cm /* Pushes the left image to the corner */  
 }
 
 footer > .Footimage > img {
